@@ -1,0 +1,265 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Hero section style start here */
+
+.hero-section {
+  padding-top: 50px;
+  width: 90%;
+  margin: auto;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #161616;
+  color: #ffffff;
+  border-radius: 10px;
+}
+
+.hero-info {
+  padding: 111px 24px 111px 106px;
+  width: 531px;
+  height: 424px;
+}
+
+.hero-info .heading-1 {
+  font-size: 70px;
+  font-weight: bold;
+  line-height: 80px;
+  padding-bottom: 20px;
+}
+
+.hero-info .heading-2 {
+  display: none;
+}
+
+.hero-info .pera-1 {
+  line-height: 26px;
+  padding-bottom: 30px;
+}
+
+.hero-info .pera-2 {
+  display: none;
+}
+
+.hero img {
+  padding-top: 33px;
+  width: 581px;
+  height: 613px;
+  object-fit: cover;
+}
+
+.hero-info button {
+  padding: 16px 25px;
+  background: #dd0000;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Cards groups styles */
+.card-group {
+  width: 90%;
+  margin: auto;
+}
+.cards {
+  display: flex;
+  gap: 24px;
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
+
+.card-features {
+  width: 312px;
+  height: 312px;
+  background: #161616;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 30px;
+}
+
+.card-features .item {
+  width: 252px;
+  height: 64px;
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+.card-info {
+  padding: 20px;
+}
+.card-info button {
+  padding: 4px 10px;
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+.card-info h5 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 0px 20px 0px;
+}
+
+.card-info span {
+  padding-right: 30px;
+}
+
+.card-features a {
+  text-decoration: none;
+  color: #161616;
+  display: flex;
+  padding: 17px 39px;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.card-features .item-blog {
+  background: #dd0000;
+  color: white;
+}
+
+.card-transfer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 24px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+}
+
+.card img {
+  border-radius: 10px 10px 0px 0px;
+  width: 312px;
+  height: 175px;
+}
+
+footer {
+  background: #161616;
+}
+.footer {
+  text-align: center;
+}
+.footer h2 {
+  padding: 130px 0px 50px 0px;
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.footer hr {
+  width: 80%;
+  margin: auto;
+}
+.footer ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+  color: #b9b9b9;
+  padding-bottom: 30px;
+}
+.footer ul li {
+  padding: 20px;
+  list-style: none;
+}
+
+/* Mobile responsive style */
+@media screen and (max-width: 576px) {
+  .hero-section {
+    width: 334px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+  }
+
+  .hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .hero-info {
+    width: 258px;
+    height: 178px;
+    padding: 28px 38px 21px 38px;
+    text-align: center;
+  }
+
+  .hero-info .heading-1 {
+    display: none;
+  }
+  .hero-info .heading-2 {
+    font-size: 22px;
+    line-height: 33px;
+    padding-bottom: 8px;
+    display: block;
+  }
+
+  .hero-info .pera-1 {
+    display: none;
+  }
+  .hero-info .pera-2 {
+    font-size: 14px;
+    line-height: 24px;
+    padding-bottom: 16px;
+    display: block;
+  }
+
+  .hero-info button {
+    padding: 8px 12px;
+    margin: auto;
+  }
+
+  .hero img {
+    width: 233px;
+    height: 245px;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0px;
+  }
+
+  .card-transfer {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+  .card-features {
+    display: flex;
+    flex-direction: column;
+    width: 210px;
+    height: 176px;
+    margin: auto;
+    background: white;
+  }
+  .card-features .item {
+    border: 1px solid lightgray;
+  }
+
+  .footer h2 {
+    padding: 50px 0px 20px 0px;
+  }
+
+  footer ul {
+    display: flex;
+    flex-direction: column;
+  }
+}
